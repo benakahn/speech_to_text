@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:background="#fff"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/mit"/>
+    <ImageView
+        android:id="@+id/splash1"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/ise"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/splash"/>
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/splash1"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:text="Information Science and Engineering"/>
+
+</RelativeLayout>
